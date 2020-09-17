@@ -47,6 +47,7 @@ h1 {
 h2 {
     font-size: 25px;
     color: black;
+    font-weight: 500;
 }
 
 p {
@@ -140,7 +141,6 @@ p {
     transform: translateY(-50%);
 }
 
-/* MAIN */
 
 /* MAIN | intro */
 
@@ -155,3 +155,9 @@ p {
 
 /* MAIN | info */
 
+
+.main-info .column-3{
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: red;
+}
