@@ -28,6 +28,11 @@ body{
     float: left;
 }
 
+.column-3{
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
 /* typography */
 
 a {
@@ -166,18 +171,13 @@ p {
 
 /* MAIN | info */
 
-.main-info .column-3{
-    width: calc(100% / 3);
-    height: 500px;
-    padding: 25px;
+.main-info {
+    padding: 40px 15px;
 }
 
-.column-3 img {
-    width: 80%; 
+.column-3 img { 
     height: 200px;
-    display: block;
-    margin: 15px auto;
-    vertical-align: center;
+    margin-bottom: 15px;
 }
 
 .main-info .column-3 h3:after{
