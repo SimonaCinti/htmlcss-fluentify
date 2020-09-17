@@ -131,8 +131,9 @@ p {
     background-position: bottom right;     
 }
 
-.jumbotron.container {
+.jumbotron-wrapper.container {
     position: relative;
+    height: 100%;
 }
 
 .jumbotron-text {
@@ -146,7 +147,6 @@ p {
 
 .main-intro {
     background-color: #D3D3D3;
-    
 }
 
 .main-intro .text {
