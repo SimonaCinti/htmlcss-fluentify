@@ -48,15 +48,26 @@ h2 {
     font-size: 25px;
     color: black;
     font-weight: 500;
+    line-height: 1.5;
+}
+
+h3 {
+    color: #7CBB02;
+    font-weight: 500; 
+    line-height: 1.5;  
+    font-size: 20px;
 }
 
 p {
-    line-height: 2.5;
+    line-height: 1.5;
 }
+
+
 
 .text-center {
     text-align: center;
 }
+
 
 /* Utilities */
 
@@ -155,9 +166,12 @@ p {
 
 /* MAIN | info */
 
-
 .main-info .column-3{
     width: calc(100% / 3);
     height: 500px;
-    background-color: red;
+    padding: 40px;
+}
+
+.column-3 img {
+    width: 80%; 
 }
