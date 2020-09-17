@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Styles */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.clearfix {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.float-left{
+    float: left;
+}
+
+/* HEADER */
+header {
+    background-color: #0C325A;
+    height: 500px;
+}
+
+ /* HEADER | Nav top */
+
+nav .logo {
+     width: 15%;
+ }
+
+nav .nav-top-left,
+nav .nav-top-right {
+    width: calc(85% / 2);
+ }
