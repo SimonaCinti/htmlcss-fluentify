@@ -36,6 +36,11 @@ a {
     font-size: 12px;
 }
 
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
 
 /* Utilities */
 
@@ -95,8 +100,6 @@ a {
      width: 40%;
 }
 
-
-
 /* HEADER | jumbotron */
 
 .jumbotron {
@@ -113,6 +116,8 @@ a {
 
 .jumbotron-text {
     position: absolute;
-    bottom: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
 }
 
