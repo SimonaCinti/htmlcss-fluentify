@@ -144,11 +144,14 @@ p {
 
 /* MAIN | intro */
 
-.main-info {
+.main-intro {
     background-color: #D3D3D3;
     
 }
 
-.main-info .text {
+.main-intro .text {
  padding: 30px 0;
 }
+
+/* MAIN | info */
+
