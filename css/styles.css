@@ -8,6 +8,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color:  #808080;
 }
 
 /* Container Styles */
@@ -43,8 +44,25 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 25px;
+    color: black;
+}
+
+p {
+    line-height: 2.5;
+}
+
+.text-center {
+    text-align: center;
+}
 
 /* Utilities */
+
+
+.w50 {
+    width: 50%;
+}
 
 .btn {
     min-width: 100px;
@@ -105,7 +123,7 @@ h1 {
 /* HEADER | jumbotron */
 
 .jumbotron {
-    height: 440px;
+    height: 438px;
     background-image: url("../img/background-header.png");
     background-size: 60%;
     background-repeat: no-repeat;
@@ -120,6 +138,17 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 50%;
 }
 
+/* MAIN */
+
+/* MAIN | intro */
+
+.main-info {
+    background-color: #D3D3D3;
+    
+}
+
+.main-info .text {
+ padding: 30px 0;
+}
