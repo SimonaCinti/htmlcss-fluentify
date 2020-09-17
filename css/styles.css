@@ -59,6 +59,8 @@ body{
     height: 500px;   
 }
 
+/* HEADER | nav */
+
 .header-nav {
     line-height: 60px;
     text-transform: uppercase;
@@ -84,4 +86,15 @@ body{
 .header-nav a {
     text-decoration: none;
     color: white;
+}
+
+/* HEADER | jumbotron */
+
+.jumbotron {
+    height: 440px;
+    background-image: url("../img/background-header.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
