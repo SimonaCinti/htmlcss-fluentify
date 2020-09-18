@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -38,8 +37,12 @@ body{
 a {
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     font-size: 12px;
+}
+
+header a,
+footer a {
+    text-transform: uppercase;
 }
 
 h1 {
@@ -56,22 +59,16 @@ h2 {
     line-height: 1.3;
 }
 
-
-
 p {
     line-height: 1.5;
     padding-top: 10px;
 }
 
-
-
 .text-center {
     text-align: center;
 }
 
-
 /* Utilities */
-
 
 .w50 {
     width: 50%;
@@ -200,7 +197,6 @@ p {
     padding: 0 50px;
 }
 
-
 .main-info .column-3 h3:after{
     content: '';
     display: block;
@@ -262,7 +258,6 @@ footer .submit-plan {
     right: 0;
 }
 
-
 /* HELP BOX */
 
 .help-box{
@@ -270,4 +265,8 @@ footer .submit-plan {
     bottom: 0;
     right: 20%;
     color: white;
+}
+
+.help-box {
+    text-transform: uppercase;
 }
