@@ -87,7 +87,7 @@ p {
 }
 
 .btn-green {
-    border: 1px solid green;
+    border: 1px solid #7CBB02;
     background-color: #7CBB02;
 }
 
@@ -109,7 +109,7 @@ p {
 
 .list-inline li {
    display: inline-block; 
-   padding: 0 8px;
+   padding: 0 4px;
 }
 
 /* HEADER */
@@ -272,7 +272,11 @@ footer .submit-plan {
 }
 
 footer .submit-plan {
-    padding-left: 80px;
+    padding-left: 70px;
+}
+
+footer .submit-plan li .btn-green {
+    margin-left: 10px;
 }
 
 .select {
