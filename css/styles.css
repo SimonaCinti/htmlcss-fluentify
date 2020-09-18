@@ -32,7 +32,7 @@ body{
     padding: 0 20px;
 }
 
-/* typography */
+/* Anchor Style */
 
 a {
     text-decoration: none;
@@ -44,6 +44,8 @@ header a,
 footer a {
     text-transform: uppercase;
 }
+
+/* Typography */
 
 h1 {
     font-size: 40px;
@@ -161,7 +163,6 @@ p {
     border-bottom: 1px solid grey;
 }
 
-
 /* MAIN | intro */
 
 .main-intro {
@@ -218,7 +219,6 @@ p {
 .main-bottom-right {
     padding-left: 80px;
 }
-
 
 .main-bottom-right a {
     display: inline-block;
