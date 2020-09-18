@@ -159,6 +159,12 @@ p {
     transform: translateY(-50%);
 }
 
+/* MAIN */
+
+.main-top {
+    border-bottom: 1px solid grey;
+}
+
 
 /* MAIN | intro */
 
@@ -174,7 +180,6 @@ p {
 
 .main-info {
     padding: 40px 15px;
-    border-bottom: 1px solid grey;
 }
 
 .column-3 img { 
