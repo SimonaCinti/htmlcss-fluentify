@@ -101,6 +101,11 @@ p {
     padding: 10px 20px;
 }
 
+.btn-small {
+    min-width: 0;
+    padding: 5px 10px;
+}
+
 /* List styles */
 
 .list-inline li {
@@ -239,3 +244,12 @@ footer .submit-plan {
     right: 0;
 }
 
+
+/* HELP BOX */
+
+.help-box{
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    color: white;
+}
