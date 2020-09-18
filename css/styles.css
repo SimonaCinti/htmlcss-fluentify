@@ -151,14 +151,18 @@ p {
 /* HEADER | nav | right */
 
 .main-header .nav-right {
-     width: 40%;
+    width: 40%;
 }
 
-li:nth-child(2):hover a {
+.nav-right li:first-child:hover a {
+    text-decoration: underline;
+}
+
+.nav-right li:nth-child(2):hover a {
     background-color: lightcoral;
 }
 
-li:nth-child(3):hover a {
+.nav-right li:nth-child(3):hover a {
     background-color: white;
     color: #7cbb02;
 }
