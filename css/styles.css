@@ -100,6 +100,12 @@ p {
     padding: 5px 10px;
 }
 
+.btn-large.btn-green:hover,
+.btn-small {
+    background-color: white;
+    color: #7cbb02;
+}
+
 /* List styles */
 
 .list-inline li {
@@ -128,12 +134,34 @@ p {
     vertical-align: middle;
 }
 
+/* HEADER | nav | left */
+
 .main-header .nav-left {
     width: 45%;
 }
 
+.main-header .nav-left a:hover{
+    text-decoration: underline;
+}
+
+.main-header .nav-left a:focus{
+    text-decoration: underline;
+    color: #4183ca;
+}
+
+/* HEADER | nav | right */
+
 .main-header .nav-right {
      width: 40%;
+}
+
+li:nth-child(2):hover a {
+    background-color: lightcoral;
+}
+
+li:nth-child(3):hover a {
+    background-color: white;
+    color: #7cbb02;
 }
 
 /* HEADER | jumbotron */
