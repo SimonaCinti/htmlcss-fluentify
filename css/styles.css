@@ -100,8 +100,7 @@ p {
     padding: 5px 10px;
 }
 
-.btn-large.btn-green:hover,
-.btn-small {
+.btn-large.btn-green:hover {
     background-color: white;
     color: #7cbb02;
 }
