@@ -93,7 +93,7 @@ p {
 }
 
 .btn-large {
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .btn-small {
@@ -194,6 +194,10 @@ p {
     line-height: 1.5;  
     font-size: 20px;
     position: relative;
+}
+
+.column-3 h3.middle-h3{
+    padding: 0 50px;
 }
 
 
